@@ -1,7 +1,12 @@
+.container {
+    padding-top: 100px;
+}
+
 .grid {
     height: 400px;
     width: 400px;
-    background-color: grey;
+    border: 2px solid black;
+    background-color: rgb(236, 151, 109);
     display: flex;
     flex-wrap: wrap;
 }
@@ -9,12 +14,13 @@
 .grid div {
     height: 40px;
     width: 40px;
+    /* border: 1px solid black; */
 }
 
 .checked {
-    background-color: red;
+    background-color: grey;
 }
 
-.bomb {
-    background-color: hotpink;
-}
+/* .bomb {
+    background-color: #F2AA4CFF;
+} */
